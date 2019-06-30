@@ -11,7 +11,7 @@ def initialize(name)
 
  def back_project(project)
    @backed_projects << project 
-   self << backers 
+   @backers << self 
  end
  
 
